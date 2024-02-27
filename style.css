@@ -1,0 +1,107 @@
+/* Importing Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+ 
+  font-family: 'Open Sans', sans-serif;
+}
+.nav{
+  width: 100%;
+  height: max-content;
+  padding: 20px 0px;
+  color: #fff;
+  text-align: center;
+  background: #162141;
+}
+.body{
+  width: 100%;
+  height: max-content;
+  padding: 104px 0px;
+  color: #fff;
+  text-align: center;
+  background: #565d74;
+}
+.footer {
+  background: #162141;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 3.5rem;
+  padding: 40px;
+}
+
+.row .column h4 {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.column .list {
+  margin-top: 15px;
+}
+
+.column .list li,a {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 15px;
+  color: #c0c0c0;
+}
+
+.column p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #c0c0c0;
+  max-width: 300px;
+}
+
+.column form {
+  display: flex;
+  gap: 5px;
+}
+
+.column input {
+  height: 40px;
+  border-radius: 5px;
+  background: none;
+  width: 100%;
+  border: 1px solid #76809f ;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.column input::placeholder {
+  color: #c0c0c0;
+}
+
+ .column form button {
+  background: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 550;
+}
+
+.column form button:hover {
+  background: #3a485b;
+  color: #ffffff;
+}
+
+.column .soc_icons {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.column .soc_icons i {
+  color: #fff;
+}
+
+a:hover{
+  color: cornflowerblue;
+}
